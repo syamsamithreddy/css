@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-items{
+            display: block;
+        }
+        .input-others{
+            display: inline-block;
+        }
+        /* div{
+            display: flex;
+            flex-direction:column;
+            width: 300px;
+            margin: 0px;
+
+         } */
+       
+    </style>
+</head>
+<body>
+    <div >
+
+    
+    <!--Input Tags-->
+    <lable class="input-items" style="text-align:left" for="fullname">Full Name</lable> 
+    <input class="input-items"  type="text" id="fullname" name="fullname" value="" placeholder="Enter Full Name"/> 
+    <lable class="input-items"  for="age">Age</lable> 
+    <input class="input-items"  type="number" id="age" name="age" value="" placeholder="Enter Age"/> 
+    <label class="input-items" for="email">Email</label> 
+    <input class="input-items"  type="email" id="email"  placeholder="Enter Email Id" name="email"/> 
+    <lable class="input-items" for="favourtcolor">Favourt Color</lable> 
+    <input class="input-items" type="color" id="favourtcolor" name="favourtcolor"/> 
+    <label class="input-items" >Education</label> 
+    <input class="input-others" type="checkbox" id="ssc" name="ssc">SSC</input>
+    <input class="input-others" type="checkbox" id="inter" name="inter">Inter</input>
+    <input class="input-others" type="checkbox" id="graduation" name="graduation">Graduation</input> 
+    <label class="input-items">Gender</label> 
+    <input  class="input-others"type="radio" id="male" name="gender" disabled>Male</input>
+    <input class="input-others" type="radio" id="female" name="gender">Fe Male</input>
+    <input class="input-others" type="radio" id="others" name="gender">Others</input> 
+    <label class="input-items" >Date of Birth</label> 
+    <input class="input-items" type="date" id="dob" name="dob"/> 
+    <label class="input-items">Date Local</label> 
+    <input class="input-items" type="datetime-local" id="dobtime-local" name="dobtime-local"/> 
+    <label class="input-items" >Month of Birth</label> 
+    <input class="input-items" type="month" id="mob" name="mob"/> 
+    <label class="input-items" >Mobile No</label> 
+    <input class="input-items" type="tel" id="mobileno" placeholder="Enter 10 Digit Mobile No" name="mobileno"/> 
+    <label class="input-items" >Search Element</label> 
+    <input class="input-items" type="search" id="txtsearch" placeholder="Search Any Thing" name="txtsearch"/> 
+
+</div>
+</body>
+</html>

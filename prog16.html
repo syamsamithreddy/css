@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <center>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/DgQjF4ui4D4"
+          title="Na Roja Nuvve | Kushi | Vijay Deverakonda | Samantha Ruth Prabhu | Hesham Abdul Wahab | Lyrical"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </center>
+    </div>
+
+    <table >
+      <tr>
+        <td><label>Course Name:</label></td>
+        <td>
+          <select id="courses">
+            <option value="">Select Course</option>
+            <option value="c">C</option>
+            <option value="cpp">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="course">Choose Software</label></td>
+        <td>
+          <select name="course" id="course">
+            <optgroup label="Languages">
+              <option value="">Select Course</option>
+              <option value="c">C</option>
+              <option value="java">Java</option>
+            </optgroup>
+            <optgroup label="Data Bases">
+              <option value="mysql">MySQL</option>
+              <option value="oracle">Oracle</option>
+            </optgroup>
+          </select>
+        </td>
+      </tr>
+    </table>
+
+    <div>
+      <label for="rating">What is Rating of HTML out 10</label><br>
+      <progress id="rating" value="8" max="10">8</progress>
+    </div>
+    <div>
+      <label for="work">Out of 3 Hours work how much complete</label>
+      <meter id="work" value="2" min="0" max="3">2 out of 3</meter>
+    </div>
+   
+  </body>
+</html>

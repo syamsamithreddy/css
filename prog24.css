@@ -1,0 +1,33 @@
+.bg-warning{
+    background-color: orange;
+}
+.bg-dark{
+    background-color: black;
+}
+.btn{
+    border-style: none;
+    border-radius: 7px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+}
+.btn-primary{
+    background-color:#007bff;
+}
+.btn-warning{
+    background-color:#ffc107;
+}
+.btn-success{
+    background-color:#28a745;
+}
+.btn-danger{
+    background-color:#dc3545;
+}
+.btn-info{
+    background-color:#5a6268;
+}
+.btn-secondary{
+    background-color:gray;
+}

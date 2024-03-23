@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function showusername() {
+        let name = document.getElementById("username").value;
+        alert(name);
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+        <center>
+            <a href="https://www.google.com" target="_blank">Google</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.yahoo.com" target="_blank">Yahoo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.rediff.com" target="_blank">Rediff</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="index.html" target="_blank">My Index Page</a>
+        </center>
+    </div>
+    <fieldset>
+      <legend>User Credentials</legend>
+      <label>User Name</label>
+      <input type="text" name="username" id="username" /><br />
+      <label>User Password</label>
+      <input type="password" name="userpassword" id="userpassword" />
+      <button onclick="showusername()">Click Me</button>
+    </fieldset>
+    <fieldset>
+      <legend>User Details</legend>
+      <label>Father Name</label>
+      <input type="text" name="fathername" id="fathername" />
+      <br />
+      <label>Age</label>
+      <input type="number" name="age" id="age" />
+    </fieldset>
+
+    <div>
+      <details>
+        <summary>C Language</summary>
+        <p>
+          C is a high level programming language. it was developed by dennis
+          ritche in 1971 at AT & T Bell Labs.
+        </p>
+      </details>
+    </div>
+
+    <dialog open>This is an close dialog window</dialog>
+    <br>
+    <br>
+    <br>
+    <dialog >This is an open dialog window</dialog>
+
+  </body>
+</html>
